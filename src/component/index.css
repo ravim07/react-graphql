@@ -1,0 +1,50 @@
+.iconUpload {
+  /* width: 30%; */
+  padding: 10px 5px;
+  cursor: text;
+  border: 1.5px solid rgb(177 173 173);
+  border-radius: 7px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background: #4356b6;
+  color: #ffffff;
+  border: none;
+  float: right;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.card-shadow {
+  box-shadow:rgb(0 0 0 / 38%) 4px 12px 23px 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 95%;
+  max-height: 93vh;
+  margin: auto;
+}
+
+.home-button {
+  width: 22%;
+    border: none;
+    border-radius: 7px;
+    padding: 1;
+    background-color: #0080007a;
+    color: white;
+    height: 35px;
+}
+
+.blog-label {
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: 500;
+}
